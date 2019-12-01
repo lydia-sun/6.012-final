@@ -1,0 +1,1015 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: eecs-digital-50
+	Operating System: Linux rel. 4.2.0-42-generic ver. #49~14.04.1-Ubuntu SMP Wed Jun 29 20:22:11 UTC 2016
+	Machine Type: x86_64
+	Process ID: 21603
+	Number of processors: 4
+	Domain Name: (none)
+	Date: Sat Nov 30 15:20:41 2019  (EDT)
+
+Sat Nov 30 15:20:41 2019: checked out 1 Dessis license(s)
+Sat Nov 30 15:20:41 2019: checked out 1 sdevice license(s)
+Parsing circuit file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/scm/MOS_harness.ccf
+Loading shared object file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/scm/MOS_harness.so.amd64
+Loading shared object file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource2.so.amd64
+Loading shared object file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource2.so.amd64
+Loading shared object file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_SRL1.so.amd64
+Loading shared object file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/bs_psource.so.amd64
+Loading shared object file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource.so.amd64
+Loading shared object file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource.so.amd64
+Loading shared object file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_sRL.so.amd64
+Loading shared object file /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice/sd_hb_pGC.so.amd64
+
+Input source: simulation_control.cmd
+
+===============================
+
+Output file: NEWFET_def.log_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice-20.0.5 /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice
+
+CMIPath file: /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/sdevice /mit/sentaurus/G-2012.06/tcad/current/amd64/lib/scm
+
+SPICEPath file: /mit/sentaurus/G-2012.06/tcad/current/lib/sdevice-20.0.5/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 50
+  LineSearchDamping=1
+  #undamped iterations : 100
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  Harmonic balance (HB) specifications:
+    Do not use MDFT mode in HB (i.e. one-tone and time domain assembly).
+    Do not use in HB the logarithm of densities.
+    No SolveSpectrum entries are specified.
+    Plot HB results for time domain interval (0.0000e+00 , 0.0000e+00) using 0 intervals.
+    HB Newton scaling parameters for rhs and update:
+      Equation                         :  RhsScale  : UpdateScale
+      Poisson                          :   1.00E+00 :   1.00E+00 
+      Electron                         :   1.00E-05 :   1.00E+00 
+      Hole                             :   1.00E-05 :   1.00E+00 
+      Photon-Rate-Equation             :   1.00E-05 :   1.00E+00 
+      Photon-Phase-Equation            :   1.00E+00 :   1.00E+00 
+      Rate-Stabilize-Equation          :   1.00E+00 :   1.00E+00 
+      QW-Scattering-Equations          :   1.00E-05 :   1.00E+00 
+      QW-eScattering-Equation          :   1.00E-05 :   1.00E+00 
+      QW-hScattering-Equation          :   1.00E-05 :   1.00E+00 
+      Optical Problem                  :   1.00E+00 :   1.00E+00 
+      Wavelength                       :   1.00E+00 :   1.00E+00 
+      Bandstructure                    :   1.00E+00 :   1.00E+00 
+      EmissionTable                    :   1.00E+00 :   1.00E+00 
+      DephasingRates                   :   1.00E+00 :   1.00E+00 
+      Photon Recycling                 :   1.00E+00 :   1.00E+00 
+      Electron-Temperature             :   1.00E+00 :   1.00E+00 
+      Hole-Temperature                 :   1.00E+00 :   1.00E+00 
+      Lattice-Hole-Electron-Temperature:   1.00E+00 :   1.00E+00 
+      Circuit                          :   1.00E-05 :   1.00E+00 
+      TCircuit                         :   1.00E+00 :   1.00E+00 
+      Contact                          :   1.00E-05 :   1.00E+00 
+      TContact                         :   1.00E+00 :   1.00E+00 
+      Continuation                     :   1.00E+00 :   1.00E+00 
+      eLaplace                         :   1.00E+00 :   1.00E+00 
+      hLaplace                         :   1.00E+00 :   1.00E+00 
+      tLaplace                         :   1.00E+00 :   1.00E+00 
+      MonteCarlo                       :   1.00E+00 :   1.00E+00 
+      MCPoissonPDE                     :   1.00E+00 :   1.00E+00 
+      eQuantumPotential                :   1.00E+00 :   1.00E+00 
+      hQuantumPotential                :   1.00E+00 :   1.00E+00 
+      quasi-fermi-potential            :   1.00E+00 :   1.00E+00 
+      ConductiveInsulator              :   1.00E+00 :   1.00E+00 
+      ContactAndConductiveInsulator    :   1.00E+00 :   1.00E+00 
+      SingletExciton                   :   1.00E+00 :   1.00E+00 
+      eHopping                         :   1.00E+00 :   1.00E+00 
+      hHopping                         :   1.00E+00 :   1.00E+00 
+      HydrogenAtom                     :   1.00E+00 :   1.00E+00 
+      HydrogenMolecule                 :   1.00E+00 :   1.00E+00 
+      HydrogenIon                      :   1.00E+00 :   1.00E+00 
+      HydrogenSiliconBondOccupation    :   1.00E+00 :   1.00E+00 
+      eSHEDistribution                 :   1.00E+00 :   1.00E+00 
+      hSHEDistribution                 :   1.00E+00 :   1.00E+00 
+    HB Newton correction parameters for values:
+      Equation                         :     Min    :  Variation 
+      Electron                         :   1.00E-20 :   1.00E+18 
+      Hole                             :   1.00E-20 :   1.00E+18 
+      Photon-Rate-Equation             :   0.00E+00 :   1.00E+18 
+      QW-eScattering-Equation          :   1.00E-20 :   1.00E+18 
+      QW-hScattering-Equation          :   1.00E-20 :   1.00E+18 
+      Electron-Temperature             :   1.00E+02 :   1.00E+18 
+      Hole-Temperature                 :   1.00E+02 :   1.00E+18 
+      Lattice-Hole-Electron-Temperature:   1.00E+02 :   1.00E+18 
+    
+    Traps are solved by decoupled mode.
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+15
+  Maximum |rhs| factor : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 1 (OMP_NUM_THREADS)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "Drain_contact" : 1.5 V (Ohmic), area factor : 1
+    "Source_contact" : 0.0000e+00 V (Ohmic), area factor : 1
+    "Gate_contact" : 0.0000e+00 V (Ohmic), area factor : 1
+    "Body_contact" : 0.0000e+00 V (Ohmic), area factor : 1
+  Files:
+    no Boundary file
+    Grid file: NEWFET_msh.tdr
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    Plot file: NEWFET_def.tdr
+    no DevFieldsName file
+    no Path file
+    no optical-Generation file
+    no Lifetime file
+    no Temperature file
+    Current file: NEWFET_def.plt
+    no PMIUserFields file
+    no Extraction file
+    no ModelParameters file
+    no Piezo file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With exact derivatives
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    Without SRH-Recombination
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    Without Auger-Recombination
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+  Without thermal resistance interfaces
+  Without Piezo
+  Without Anisotropic Material Properties
+  Without Avalanche-Generation 
+  Without Alpha Particle
+  Without Heavy Ion
+  Without polarization
+  Volume charge density: 0.0000e+00 cm^-3
+  Device Temperature = 3.0000e+02 K
+  Electron Quasi Fermi Potential: 0.0000e+00 V
+  Hole Quasi Fermi Potential: 0.0000e+00 V
+  Without MagneticField
+  With SingletExciton Barrier Type
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: OldSlotboom with bandgap narrowing (no Fermi)
+  default affinity model
+  default effective mass model
+  Electron mobility:
+    Doping dependence:
+      Default
+    no Carrier-Carrier scattering
+    E_normal dependence:
+      Lombardi
+    Without ThinLayer mobility model
+    Diffusivity: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+    Einstein relation for diffusivity-mobility ratio.
+  Hole mobility:
+    Doping dependence:
+      Default
+    no Carrier-Carrier scattering
+    E_normal dependence:
+      Lombardi
+    Without ThinLayer mobility model
+    Diffusivity: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+    Einstein relation for diffusivity-mobility ratio.
+  Energy relaxation time model: according to formula in parameter file
+  Lattice thermal conductivity model: according to formula in parameter file
+  Metal Resistivity model: according to formula in parameter file
+  Thermo Electric Power model: extraploted Si data
+  Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+  Lattice heat capacity model: temperature dependent
+  no piezoelectric polarization model
+  Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+Process information for extraction purposes:
+  none
+Plot variables:
+  eDensity
+  hDensity
+  eCurrentDensity
+  hCurrentDensity
+  ElectrostaticPotential
+  SpaceCharge
+  ElectricField
+  eMobility
+  hMobility
+  eVelocity
+  hVelocity
+  DopingConcentration
+  DonorConcentration
+  AcceptorConcentration
+
+------------------------------------------------
+NoisePlot variables:
+  none
+Plot groups:
+  none
+
+------------------------------------------------
+CurrentPlot variables:
+  none
+Devices:
+Systems:
+Solve :
+ Poisson
+Coupled ( Digits : 5, Max. #iterations : 50, 
+    Solver : blocked decomposition,
+    #undamped iterations : 100 
+)
+    { Poisson Electron Hole } 
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 1.0000e-03, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.05, 
+      Increment : 1.1, Decrement : 2, 
+      Goal values :
+        Contact Gate_contact : 1.5V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+
+===============================
+
+Reading grid 'NEWFET_msh.tdr' ... 
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 6307.
+done.
+
+Adding interfaces and contacts .... done.
+Computing edges ...
+  Number of edges: 18940
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  ElementWithMinVolume(  1347) Vertex0( 6305)( 5.988281e-02, 0.000000e+00) Volume = 7.152557e-10 um3 (6.29e-09 from TotalVolume)
+    ElementWithMinEdge(   914) Vertex0( 3765)( 2.570312e-02,-1.220703e-05) Length = 1.220703e-05 um
+        MaxFlatElement(  5468) Vertex0( 5900)( 6.945313e-02, 1.093750e-02)  Angle = 6.169924e+01 degrees
+   ElementWithMinAngle(  7246) Vertex0( 5397)( 6.671875e-02,-1.220703e-05)  Angle = 5.115559e-01 degrees
+                   tan(MinAngle) = 8.928571e-03 
+
+   NumberOfEdges              =  18940 
+   NumberOfGeometricalEdges   =  18626 
+   NumberOfDoubleEdges        =      0 
+   MaxNumberOfElementsPerEdge =      2 
+   MaxNumberOfEdgesPerVertex  =      8 
+
+  Computing coefficient and measure ...   done.
+  Old Parameters time:   0.00 s
+
+  Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:   0.00 s
+      New Parameters time:   0.00 s
+
+                       NumberOfVertices =   6621 
+                       NumberOfElements =  12320 
+                      NumberOfTriangles =  12320  (100.00 %)
+                     NumberOfRectangles =      0  ( 0.00 %)
+                 NumberOfObtuseElements =      4  ( 0.03 %)
+            NumberOfNonDelaunayElements =      0  ( 0.00 %)
+    done.
+  done.
+  (times: wc = 0.02 s, tcpu = 0.01 s)
+
+
+/-------- Region non Delaunay elements ------------------------------------------------
+ Region               Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+  name                 [um2]          [um2]           [%]                   Elements   
+ --------------------------------------------------------------------------------------
+ spacerR           1.7500000e-03  1.7500000e-03       0.000      1348       0 ( 0.00 %) 
+ channel           5.2500000e-04  5.2500000e-04       0.000       624       0 ( 0.00 %) 
+ gate_oxide        7.5000000e-05  7.5000000e-05       0.000       190       0 ( 0.00 %) 
+ spacerL           1.7500000e-03  1.7500000e-03       0.000      1348       0 ( 0.00 %) 
+ drain_n_ext       1.2250000e-03  1.2250000e-03       0.000       989       0 ( 0.00 %) 
+ drain_n           1.5750000e-03  1.5750000e-03       0.000      1188       0 ( 0.00 %) 
+ drain_electrode   2.2500000e-03  2.2500000e-03       0.000      1648       0 ( 0.00 %) 
+ body_electrode    1.7500000e-02  1.7500000e-02       0.000        80       0 ( 0.00 %) 
+ source_n_ext      1.2250000e-03  1.2250000e-03       0.000       989       0 ( 0.00 %) 
+ source_n          1.5750000e-03  1.5750000e-03       0.000      1188       0 ( 0.00 %) 
+ body              8.1375000e-02  8.1375000e-02       0.000       648       0 ( 0.00 %) 
+ gate_electrode    6.7500000e-04  6.7500000e-04       0.000       432       0 ( 0.00 %) 
+ source_electrode  2.2500000e-03  2.2500000e-03       0.000      1648       0 ( 0.00 %) 
+ Total             1.1375000e-01  1.1375000e-01       0.000     12320       0 ( 0.00 %) 
+\--------------------------------------------------------------------------------------
+
+
+/-------- Interface non Delaunay elements ---------------------------------------------
+ Region1              Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+ Region2               [um2]          [um2]           [%]                   Elements   
+ --------------------------------------------------------------------------------------
+ spacerR           9.6427917e-06  9.6427917e-06       0.000        13       0 ( 0.00 %) 
+ gate_oxide        1.6601563e-06  1.6601563e-06       0.000         7       0 ( 0.00 %) 
+ ......................................................................................
+ spacerR           8.0986023e-06  8.0986023e-06       0.000        33       0 ( 0.00 %) 
+ drain_n_ext       2.5634766e-06  2.5634766e-06       0.000        27       0 ( 0.00 %) 
+ ......................................................................................
+ spacerR           1.0814667e-05  1.0814667e-05       0.000        30       0 ( 0.00 %) 
+ drain_electrode   3.1250000e-05  3.1250000e-05       0.000        24       0 ( 0.00 %) 
+ ......................................................................................
+ spacerR           2.3705292e-05  2.3705292e-05       0.000        24       0 ( 0.00 %) 
+ gate_electrode    1.4941406e-05  1.4941406e-05       0.000        18       0 ( 0.00 %) 
+ ......................................................................................
+ channel           1.0986328e-06  1.0986328e-06       0.000        12       0 ( 0.00 %) 
+ gate_oxide        9.1552734e-08  9.1552734e-08       0.000        12       0 ( 0.00 %) 
+ ......................................................................................
+ channel           1.1621094e-05  1.1621094e-05       0.000        26       0 ( 0.00 %) 
+ drain_n_ext       1.2304687e-05  1.2304687e-05       0.000        26       0 ( 0.00 %) 
+ ......................................................................................
+ channel           1.1621094e-05  1.1621094e-05       0.000        26       0 ( 0.00 %) 
+ source_n_ext      1.2304688e-05  1.2304688e-05       0.000        26       0 ( 0.00 %) 
+ ......................................................................................
+ channel           9.0820313e-06  9.0820313e-06       0.000        12       0 ( 0.00 %) 
+ body              9.9609375e-06  9.9609375e-06       0.000        12       0 ( 0.00 %) 
+ ......................................................................................
+ gate_oxide        1.6601562e-06  1.6601562e-06       0.000         7       0 ( 0.00 %) 
+ spacerL           1.7578125e-06  1.7578125e-06       0.000         7       0 ( 0.00 %) 
+ ......................................................................................
+ gate_oxide        5.2734375e-06  5.2734375e-06       0.000        12       0 ( 0.00 %) 
+ gate_electrode    1.3769531e-05  1.3769531e-05       0.000        12       0 ( 0.00 %) 
+ ......................................................................................
+ spacerL           2.1362305e-07  2.1362305e-07       0.000        27       0 ( 0.00 %) 
+ source_n_ext      2.5634766e-06  2.5634766e-06       0.000        27       0 ( 0.00 %) 
+ ......................................................................................
+ spacerL           1.5820313e-05  1.5820313e-05       0.000        18       0 ( 0.00 %) 
+ gate_electrode    1.4941406e-05  1.4941406e-05       0.000        18       0 ( 0.00 %) 
+ ......................................................................................
+ spacerL           2.9296875e-06  2.9296875e-06       0.000        24       0 ( 0.00 %) 
+ source_electrode  3.1250000e-05  3.1250000e-05       0.000        24       0 ( 0.00 %) 
+ ......................................................................................
+ drain_n_ext       3.7512207e-05  3.7512207e-05       0.000        22       0 ( 0.00 %) 
+ drain_n           2.1875000e-05  2.1875000e-05       0.000        22       0 ( 0.00 %) 
+ ......................................................................................
+ drain_n_ext       6.1260986e-05  6.1260986e-05       0.000         8       0 ( 0.00 %) 
+ body              2.3242187e-05  2.3242187e-05       0.000         8       0 ( 0.00 %) 
+ ......................................................................................
+ drain_n           3.2958984e-06  3.2958984e-06       0.000        33       0 ( 0.00 %) 
+ drain_electrode   2.7465820e-07  2.7465820e-07       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ drain_n           8.4375000e-05  8.4375000e-05       0.000         9       0 ( 0.00 %) 
+ body              2.9882812e-05  2.9882812e-05       0.000         9       0 ( 0.00 %) 
+ ......................................................................................
+ body_electrode    1.6406250e-03  1.6406250e-03       0.000         8       0 ( 0.00 %) 
+ body              1.3671875e-04  1.3671875e-04       0.000         8       0 ( 0.00 %) 
+ ......................................................................................
+ source_n_ext      3.7512207e-05  3.7512207e-05       0.000        22       0 ( 0.00 %) 
+ source_n          2.1875000e-05  2.1875000e-05       0.000        22       0 ( 0.00 %) 
+ ......................................................................................
+ source_n_ext      6.1260986e-05  6.1260986e-05       0.000         8       0 ( 0.00 %) 
+ body              2.3242187e-05  2.3242187e-05       0.000         8       0 ( 0.00 %) 
+ ......................................................................................
+ source_n          8.4375000e-05  8.4375000e-05       0.000         9       0 ( 0.00 %) 
+ body              2.9882812e-05  2.9882812e-05       0.000         9       0 ( 0.00 %) 
+ ......................................................................................
+ source_n          3.2958984e-06  3.2958984e-06       0.000        33       0 ( 0.00 %) 
+ source_electrode  2.7465820e-07  2.7465820e-07       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ Total             2.5617218e-03  2.5617218e-03       0.000       808       0 ( 0.00 %) 
+\--------------------------------------------------------------------------------------
+done.
+Reading doping 'NEWFET_msh.tdr' (TDR format) ...
+done.
+done.
+
+
+=======
+Region: "body"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "body_electrode"
+  (material is "Aluminum")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "channel"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "drain_electrode"
+  (material is "Aluminum")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "drain_n"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "drain_n_ext"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "gate_electrode"
+  (material is "Aluminum")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "gate_oxide"
+  (material is "Oxide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "source_electrode"
+  (material is "Aluminum")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "source_n"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "source_n_ext"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "spacerL"
+  (material is "Oxide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "spacerR"
+  (material is "Oxide")
+=======
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "body_electrode/body"
+  (material interface is "Aluminum/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "channel/body"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "drain_n/body"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "drain_n_ext/body"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "source_n/body"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "source_n_ext/body"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "channel/drain_n_ext"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "channel/gate_oxide"
+  (material interface is "Silicon/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "channel/source_n_ext"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "drain_n/drain_electrode"
+  (material interface is "Silicon/Aluminum")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "spacerR/drain_electrode"
+  (material interface is "Oxide/Aluminum")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "drain_n_ext/drain_n"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "spacerR/drain_n_ext"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "gate_oxide/gate_electrode"
+  (material interface is "Oxide/Aluminum")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "spacerL/gate_electrode"
+  (material interface is "Oxide/Aluminum")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "spacerR/gate_electrode"
+  (material interface is "Oxide/Aluminum")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "gate_oxide/spacerL"
+  (material interface is "Oxide/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "spacerR/gate_oxide"
+  (material interface is "Oxide/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "source_n/source_electrode"
+  (material interface is "Silicon/Aluminum")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "spacerL/source_electrode"
+  (material interface is "Oxide/Aluminum")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "source_n_ext/source_n"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "spacerL/source_n_ext"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Body_contact"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Drain_contact"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Gate_contact"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Source_contact"
+==========
+  Constants are not modified and equal to default ones
+
+
+Use doping species (B, P) concentrations from file (Species => Na,Nd)!
+Use doping concentration (Nnet) from file.
+No total doping concentration in doping file (Species => Ntot)!
+
+
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.07274
+    The Band Gap: 1.10821
+    The Electron DOS: 2.8583e+19
+    The Hole DOS: 3.1046e+19
+  The Constant Reference Potential: 4.62578
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.79e+03                                                      0.00
+    1      1.40e+02   1.00e+00   1.52e+01   1.24e+05    0         1      0.02
+    2      3.87e+02   1.00e+00   1.06e+01   3.44e+04    0         1      0.02
+    3      1.42e+02   1.00e+00   9.39e-01   3.60e+03    0         1      0.03
+    4      5.13e+01   1.00e+00   1.69e-01   6.40e+02    0         1      0.04
+    5      1.73e+01   1.00e+00   1.31e-01   5.15e+02    0         1      0.05
+    6      4.64e+00   1.00e+00   9.27e-02   3.64e+02    0         1      0.06
+    7      6.26e-01   1.00e+00   4.01e-02   1.59e+02    0         1      0.06
+    8      1.54e-02   1.00e+00   6.21e-03   2.46e+01    0         1      0.07
+    9      1.11e-05   1.00e+00   1.45e-04   5.75e-01    0         1      0.08
+Finished, because...
+Error smaller than 1 ( 5.7492E-01 ).
+
+Accumulated times:
+Rhs time:        0.03 s
+Jacobian time:   0.00 s
+Solve time:      0.05 s
+Total time:      0.08 s
+
+contact        voltage     electron current    hole current  conduction current
+ Drain_conta  1.500E+00       2.258E-18        -2.261E-18       -3.061E-21
+ Body_contac  0.000E+00       6.126E-04        -1.580E-17        6.126E-04
+ Source_cont  0.000E+00      -6.126E-04         3.542E-24       -6.126E-04
+ Gate_contac  0.000E+00       0.000E+00         0.000E+00        0.000E+00
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 50, 
+    Solver : blocked decomposition,
+    #undamped iterations : 100 
+)
+    { Poisson Electron Hole } 
+===============================
+
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.29e+16                                                      0.03
+    1      2.88e+08   1.00e+00   2.25e+01   8.30e+05    0         1      0.16
+    2      2.81e+09   1.00e+00   6.11e+00   1.51e+04    0         1      0.30
+    3      7.50e+09   1.00e+00   1.08e+00   8.27e+07    0         1      0.44
+    4      6.87e+09   1.00e+00   1.36e+00   1.08e+08    0         1      0.58
+    5      2.22e+09   1.00e+00   9.18e-01   1.34e+04    0         1      0.72
+    6      3.95e+09   1.00e+00   1.09e+00   5.42e+06    0         1      0.86
+    7      1.84e+09   1.00e+00   7.20e-01   3.31e+07    0         1      1.00
+    8      1.07e+09   1.00e+00   1.03e+00   1.21e+04    0         1      1.13
+    9      2.18e+12   1.00e+00   1.14e+03   1.06e+09    0         1      1.27
+   10      1.29e+13   1.00e+00   1.76e+03   8.00e+14    0         1      1.41
+   11      4.70e+13   1.00e+00   1.10e+04   1.40e+17    0         1      1.56
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+contact        voltage     electron current    hole current  conduction current
+ Drain_conta  1.500E+00      -8.988E+00        -2.418E+00       -1.141E+01
+ Body_contac  0.000E+00       8.898E+00         2.450E+00        1.135E+01
+ Source_cont  0.000E+00      -1.087E-03         5.963E-02        5.855E-02
+ Gate_contac  0.000E+00       0.000E+00         0.000E+00        0.000E+00
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 1.0000e-03, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.05, 
+      Increment : 1.1, Decrement : 2, 
+      Goal values :
+        Contact Gate_contact : 1.5V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing step from t=0.0000e+00 to t=1.0000e-03 (Stepsize: 1.0000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.70e+13                                                      0.06
+    1      2.79e+14   1.00e+00   3.40e+04   1.79e+13    0         1      0.21
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=5.0000e-04 (Stepsize: 5.0000e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.70e+13                                                      0.06
+    1      2.79e+14   1.00e+00   3.40e+04   1.79e+13    0         1      0.20
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=2.5000e-04 (Stepsize: 2.5000e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.70e+13                                                      0.06
+    1      2.79e+14   1.00e+00   3.40e+04   1.79e+13    0         1      0.20
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.2500e-04 (Stepsize: 1.2500e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.70e+13                                                      0.06
+    1      2.79e+14   1.00e+00   3.40e+04   1.79e+13    0         1      0.20
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=6.2500e-05 (Stepsize: 6.2500e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.70e+13                                                      0.06
+    1      2.79e+14   1.00e+00   3.40e+04   1.79e+13    0         1      0.19
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.1250e-05 (Stepsize: 3.1250e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.70e+13                                                      0.06
+    1      2.79e+14   1.00e+00   3.40e+04   1.79e+13    0         1      0.20
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.5625e-05 (Stepsize: 1.5625e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.70e+13                                                      0.06
+    1      2.79e+14   1.00e+00   3.40e+04   1.79e+13    0         1      0.19
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Newton didn't converge, trying again with smaller step...
+
+
+Finished, because of...
+Step-size less than MinStep ( step-size = 7.8125e-06).
+
+Writing plot 'NEWFET_def.tdr' (TDR format) ... done.
+
+Sat Nov 30 15:20:45 2019: checked in 1 sdevice license(s)
+Sat Nov 30 15:20:45 2019: checked in 1 Dessis license(s)
+
+******************************************************************************
+Sentaurus Device process size: 379 megabytes
+Sentaurus Device simulation times:
+  wallclock: 4.19 s
+  total cpu: 3.82 s
+Sentaurus Device simulation finished (Date: Sat Nov 30 15:20:45 2019  (EDT)).
+********************************* Good Bye ! *********************************

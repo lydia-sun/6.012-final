@@ -1,0 +1,28 @@
+load_file /afs/athena.mit.edu/user/l/y/lydiasun/NewFolder/MYFET_def.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> MYFET_def
+create_curve -plot Plot_1 -dataset {MYFET_def} -axisX "Gate_contact OuterVoltage" -axisY "Drain_contact TotalCurrent"
+#-> Curve_1
+zoom_plot -plot Plot_1 -window {1.53269 0.000112802 1.54538 0.000112981 0 0}
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {1.43962 0.000103644 1.57077 0.000112622 0 0}
+zoom_plot -plot Plot_1 -window {1.48814 0.000109519 1.52647 0.000111018 0 0}
+zoom_plot -plot Plot_1 -window {1.49379 0.00011038 1.50835 0.000110601 0 0}
+zoom_plot -plot Plot_1 -window {1.49785 0.000110481 1.50644 0.000110521 0 0}
+probe_curve {Curve_1} -valueX 1.50003 -plot Plot_1
+#-> 0.000110511
+probe_curve {Curve_1} -valueX 1.50137 -plot Plot_1
+#-> 0.000110657
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {-0.0538462 -2.83208e-06 0.132308 3.45236e-06 0 0}
+zoom_plot -plot Plot_1 -window {-0.0199566 -1.19831e-06 0.0339803 8.90315e-07 0 0}
+zoom_plot -plot Plot_1 -window {-0.00889263 -3.15966e-07 0.00770333 3.78185e-07 0 0}
+zoom_plot -plot Plot_1 -window {-0.00267978 -1.48837e-07 0.00442669 4.90528e-08 0 0}
+zoom_plot -plot Plot_1 -window {-0.00140474 -3.25e-08 0.00129534 1.51456e-08 0 0}
+zoom_plot -plot Plot_1 -window {-0.000324708 -5.26389e-09 0.000589167 4.51857e-09 0 0}
+probe_curve {Curve_1} -valueX 1.00653e-06 -plot Plot_1
+#-> 1.52413e-09
+exit

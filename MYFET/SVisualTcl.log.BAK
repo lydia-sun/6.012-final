@@ -1,0 +1,60 @@
+load_file /afs/athena.mit.edu/user/l/y/lydiasun/NewFolder/MYFET_def.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> MYFET_def
+create_curve -plot Plot_1 -dataset {MYFET_def} -axisX "Gate_contact OuterVoltage" -axisY "Drain_contact TotalCurrent"
+#-> Curve_1
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {-0.000102564 -6.86626e-12 5.12821e-05 3.06868e-10 0 0}
+zoom_plot -plot Plot_1 -window {-5.52268e-06 -2.6955e-12 7.88955e-06 2.90185e-10 0 0}
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+exit

@@ -1,0 +1,22 @@
+load_file /afs/athena.mit.edu/user/l/y/lydiasun/Documents/6.012/NEWFET/NEWFET_def.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> NEWFET_def
+create_curve -plot Plot_1 -dataset {NEWFET_def} -axisX "Gate_contact OuterVoltage" -axisY "Drain_contact TotalCurrent"
+#-> Curve_1
+zoom_plot -plot Plot_1 -window {1.22933 2.1716e-05 1.37967 2.29929e-05 0 0}
+zoom_plot -plot Plot_1 -window {1.28571 2.23347e-05 1.34528 2.25497e-05 0 0}
+zoom_plot -plot Plot_1 -window {1.29442 2.2423e-05 1.32579 2.24681e-05 0 0}
+probe_curve {Curve_1} -valueX 1.30003 -plot Plot_1
+#-> 2.24556e-05
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {-0.0356667 -5.75445e-07 0.125667 7.74446e-07 0 0}
+zoom_plot -plot Plot_1 -window {-0.0125009 -1.42762e-07 0.0421043 1.18443e-07 0 0}
+zoom_plot -plot Plot_1 -window {-0.00227989 -4.20612e-08 0.0164819 1.46554e-08 0 0}
+zoom_plot -plot Plot_1 -window {-0.00131775 -6.1211e-09 0.0038297 3.59696e-09 0 0}
+zoom_plot -plot Plot_1 -window {-0.000367453 -1.25489e-09 0.00169153 5.82494e-10 0 0}
+probe_curve {Curve_1} -valueX 7.40118e-06 -plot Plot_1
+#-> 3.12538e-10
+exit
