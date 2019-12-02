@@ -6,14 +6,47 @@ select_plots {Plot_1}
 #-> NEWFET3_def
 create_curve -plot Plot_1 -dataset {NEWFET3_def} -axisX "Gate_contact OuterVoltage" -axisY "Drain_contact TotalCurrent"
 #-> Curve_1
-zoom_plot -plot Plot_1 -window {1.222 3.01112e-05 1.41633 3.21076e-05 0 0}
-zoom_plot -plot Plot_1 -window {1.27317 3.13439e-05 1.33726 3.15621e-05 0 0}
-zoom_plot -plot Plot_1 -window {1.29498 3.14873e-05 1.31442 3.15118e-05 0 0}
-probe_curve {Curve_1} -valueX 1.30009 -plot Plot_1
-#-> 3.15073e-05
+zoom_plot -plot Plot_1 -window {1.233 3.01624e-05 1.365 3.21076e-05 0 0}
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+probe_curve {Curve_1} -valueX 1.30002 -plot Plot_1
+#-> 3.15056e-05
 zoom_plot -plot Plot_1 -reset
-zoom_plot -plot Plot_1 -window {-0.043 -7.56213e-07 0.261333 5.74722e-07 0 0}
-zoom_plot -plot Plot_1 -window {-0.0211504 -1.23183e-07 0.0748316 4.39207e-08 0 0}
-probe_curve {Curve_1} -valueX 0.000122639 -plot Plot_1
-#-> 9.93832e-09
+zoom_plot -plot Plot_1 -window {-0.021 -6.53833e-07 0.0853333 9.8424e-07 0 0}
+zoom_plot -plot Plot_1 -window {-0.00682222 -3.44141e-08 0.0212607 5.02721e-08 0 0}
+zoom_plot -plot Plot_1 -window {-0.00451798 -4.1422e-09 0.00606711 1.69981e-08 0 0}
+probe_curve {Curve_1} -valueX 4.17496e-05 -plot Plot_1
+#-> 9.92308e-09
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {1.25133 3.03672e-05 1.35767 3.19541e-05 0 0}
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+probe_curve {Curve_1} -valueX 1.30003 -plot Plot_1
+#-> 3.15058e-05
 exit

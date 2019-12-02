@@ -1,0 +1,26 @@
+load_file /afs/athena.mit.edu/user/l/y/lydiasun/Documents/6.012/NEWFET4/NEWFET4_def.tdr
+create_plot -dataset NEWFET4_def
+select_plots {Plot_NEWFET4_def}
+#-> Plot_NEWFET4_def
+#-> Plot_NEWFET4_def
+#-> NEWFET4_def
+load_file /afs/athena.mit.edu/user/l/y/lydiasun/Documents/6.012/NEWFET4/NEWFET4_def.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> NEWFET4_def_2
+create_curve -plot Plot_1 -dataset {NEWFET4_def_2} -axisX "Gate_contact OuterVoltage" -axisY "Drain_contact TotalCurrent"
+#-> Curve_1
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {1.03811 0.000347296 1.1392 0.000414573 0 0}
+zoom_plot -plot Plot_1 -window {1.082 0.000376537 1.12058 0.000403162 0 0}
+probe_curve {Curve_1} -valueX 1.10007 -plot Plot_1
+#-> 0.000393414
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {-0.00761097 -4.87202e-05 0.226175 2.92599e-05 0 0}
+zoom_plot -plot Plot_1 -window {-0.00401426 -1.31745e-05 0.0121709 6.66497e-06 0 0}
+zoom_plot -plot Plot_1 -window {-0.000555159 -7.28574e-06 0.00482567 2.45873e-06 0 0}
+zoom_plot -plot Plot_1 -window {-0.000293016 -2.67175e-06 0.00170755 1.01255e-06 0 0}
+probe_curve {Curve_1} -valueX 1.4763e-05 -plot Plot_1
+#-> 1.30217e-07
